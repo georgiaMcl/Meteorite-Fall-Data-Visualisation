@@ -19,7 +19,7 @@ data = data.drop(labels = ["name","id","nametype","recclass","mass"], axis = 1)
 # get rid of the wrong years, no geolocation data points, and leaving only meteorite falls
 data = data.loc[(data["year"] >= 860) & (data["year"] <= 2016)]
 data = data[(data["reclat"] != 0.0) & (data["reclong"] != 0.0)]
-data = data[(data["Location of found meteorites"] != "Observed meteorite falls")]
+data = data[(data["Location of found meteorites"] != "Unobserved meteorite falls")]
 
 
 # drop data with missing values
