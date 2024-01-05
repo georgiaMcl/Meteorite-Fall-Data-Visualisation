@@ -1,5 +1,5 @@
 # Meteorite-Fall-Data-Visualisation
-A python visualisation project undertaken to answer the question "Are there factors that impact whether a meteorite has an observed fall?" by investigating factors such as meteorite mass, fall location, time of fall, and human population.
+A Python visualisation project undertaken to answer the question "Are there factors that impact whether a meteorite has an observed fall?", by investigating factors such as meteorite mass, fall location, time of fall, and human population.
 
 Programs to view graphs:
 mass.py
@@ -14,11 +14,11 @@ SouthAmericaLineGraph.py
 
 Trends Noted (in order of graphs above):
 
-    - Observed meteorites decents on average have a larger mass compared to unobserved decents.
+    - Observed meteorites descents on average have a larger mass compared to unobserved descents.
 
     - Observed meteorite falls rise as time progresses, with an expansion of sightings branching 
     primarily from Europe to other areas (India, North America, South America, Africa, and 
-    Australia), with their first sightings near coastal areas around their time of colonisations 
+    Australia), with their first sightings near coastal areas around their time of colonisation 
     by Western Europeans. This indicates these meteorite sightings/recordings have been dependent 
     on the expansion of the colonial empires.
 
